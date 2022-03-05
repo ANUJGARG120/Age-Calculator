@@ -28,7 +28,7 @@ function age() {
 
 
     
-    document.getElementById('age').innerHTML = 'AKSHITA BABY Your age is ('+diffyear +') Year , ('+diffmonth+') Month , ('+diffdate+') Day are Completed Now!';  
+    document.getElementById('age').innerHTML = 'Your age is ('+diffyear +') Year , ('+diffmonth+') Month , ('+diffdate+') Day are Completed Now!';  
 
     if(stdate > enddate || stmonth > endmonth || styear > endyear){
         alert("Date not validate") 
